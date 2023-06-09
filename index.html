@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROJETO ISOLUTION</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+    <header id="cabecalho">
+      <div class="navbar navbar-expand-lg">
+        <div class="container">
+          <img src="/imgs/iSolution-logo2.png" alt="">
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav class="collapse navbar-collapse justify-content-end" id="menu">
+            <ul class="nav navbar-nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#produtos">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#promocoes">Promoções</a>
+              </li>
+              <li class="nav-item" class="nav nav-pills">
+                <a class="nav-link" href="#noticias">Notícias</a>
+              </li>
+              <li class="nav-item" class="nav nav-pills">
+                <a class="nav-link" href="#contatos">Contatos</a>
+              </li>
+            </ul>
+          </nav>
+          <button id="btn-checar-emails" class="btn btn-warning" type="button">
+            Checar caixa de entrada
+          </button>
+        </div>
+      </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+    <div id="inicio">
+        <div
+      id="carousel-exemplo"
+      class="carousel carousel-fade slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div data-bs-interval="3000" class="carousel-item active">
+          <img
+            class="d-block w-100"
+            src="http://127.0.0.1:5500/imgs/Venha%20conferir%20nossas%20novidades!%20-%20Banner%20(1).png"
+            alt=""
+          />
+        </div>
+        <div data-bs-interval="3000" class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="http://127.0.0.1:5500/imgs/Venha%20conferir%20nossas%20novidades!%20-%20Banner.png"
+            alt=""
+          />
+        </div>
+        <div data-bs-interval="3000" class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="http://127.0.0.1:5500/imgs/Venha%20conferir%20nossas%20novidades!%20-%20Banner%20(2).png"
+            alt=""
+          />
+        </div>
+        <button
+          data-bs-target="#carousel-exemplo"
+          data-bs-slide="prev"
+          class="carousel-control-prev"
+          type="button"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          data-bs-target="#carousel-exemplo"
+          data-bs-slide="next"
+          class="carousel-control-next"
+        >
+          <span class="carousel-control-next-icon"> </span>
+        </button>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel-exemplo"
+            class="active"
+            data-bs-slide-to="0"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-exemplo"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-exemplo"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+        </div>
+      </div>
+    </div>
+      </section>
+      <section id="produtos">
+        <h2>Produtos</h2>
+              <div class="division"></div>
+              <ul class="container-flex lista-de-produtos">
+                <li>
+                  <div class="description">
+                    <img
+                      src="https://images-americanas.b2w.io/produtos/2407161703/imagens/cabo-micro-usb-em-nylon-trancado-essential-1m-esmisg-geonav/2407161703_1_large.jpg"
+                      alt="Imagem blusa de frio Bulls"
+                    />
+                    <h3><strong>Cabo Geonav Ultra resistente</strong></h3>
+                    <p>Cabo geonav ultra resistente,</p>
+                    <strong> R$ 100,00 </strong>
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn-success">Adicionar</a>
+                    </div>
+                </li>
+                <li>
+                  <img
+                    src="https://images-americanas.b2w.io/produtos/2407161703/imagens/cabo-micro-usb-em-nylon-trancado-essential-1m-esmisg-geonav/2407161703_1_large.jpg"
+                    alt="Imagem blusa de frio lakers"
+                    srcset=""
+                  />
+                  <div class="description">
+                    <h3><strong>Cabo Geonav Ultra resistente</strong></h3>
+                    <p>Cabo geonav ultra resistente,</p>
+                    <strong> R$ 100,00 </strong>
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn-success">Adicionar</a>
+                    </div>
+                </li>
+                <li>
+                  <img
+                    src="https://images-americanas.b2w.io/produtos/2407161703/imagens/cabo-micro-usb-em-nylon-trancado-essential-1m-esmisg-geonav/2407161703_1_large.jpg"
+                    alt="Imagem blusa de frio lakers"
+                    srcset=""
+                  />
+                  <div class="description">
+                    <h3><strong>Cabo Geonav Ultra resistente</strong></h3>
+                    <p>Cabo geonav ultra resistente,</p>
+                    <strong> R$ 100,00 </strong>
+                  </div>
+                  <div class="d-flex justify-content-center">
+                  <a href="#" class="btn btn-success">Adicionar</a>
+                  </div>
+                </li>
+                <li>
+                  <img
+                    src="https://images-americanas.b2w.io/produtos/2407161703/imagens/cabo-micro-usb-em-nylon-trancado-essential-1m-esmisg-geonav/2407161703_1_large.jpg"
+                    alt="Imagem blusa de frio lakers"
+                    srcset=""
+                  />
+                  <div class="description">
+                    <h3><strong>Cabo Geonav Ultra resistente</strong></h3>
+                    <p>Cabo geonav ultra resistente,</p>
+                    <strong> R$ 100,00 </strong>
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn-success">Adicionar</a>
+                    </div>
+                </li>
+              </ul>
+        </section>
+        <section id="promocoes">
+          <h2>Promoções</h2>
+          <div class="division"></div>
+          <ul class="container-flex lista-de-produtos">
+            <li>
+              <div class="description">
+                <img
+                  src="https://images-americanas.b2w.io/produtos/2407161703/imagens/cabo-micro-usb-em-nylon-trancado-essential-1m-esmisg-geonav/2407161703_1_large.jpg"
+                  alt="Imagem blusa de frio Bulls"
+                />
+                <h3><strong>Cabo Geonav Ultra resistente</strong></h3>
+                <p>Cabo geonav ultra resistente</p>
+                <del> R$ 100,00</del>
+                <strong> R$ 50,00 </strong>
+              </div>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="btn btn-success">Adicionar</a>
+                </div>
+            </li>
+            <li>
+              <img
+                src="https://images-americanas.b2w.io/produtos/2407161703/imagens/cabo-micro-usb-em-nylon-trancado-essential-1m-esmisg-geonav/2407161703_1_large.jpg"
+                alt="Imagem blusa de frio lakers"
+                srcset=""
+              />
+              <div class="description">
+                <h3><strong>Cabo Geonav Ultra resistente</strong></h3>
+                <p>Cabo geonav ultra resistente</p>
+                <del> R$ 100,00</del>
+                <strong> R$ 50,00 </strong>
+              </div>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="btn btn-success">Adicionar</a>
+                </div>
+            </li>
+            <li>
+              <img
+                src="https://images-americanas.b2w.io/produtos/2407161703/imagens/cabo-micro-usb-em-nylon-trancado-essential-1m-esmisg-geonav/2407161703_1_large.jpg"
+                alt="Imagem blusa de frio lakers"
+                srcset=""
+              />
+              <div class="description">
+                <h3><strong>Cabo Geonav Ultra resistente</strong></h3>
+                <p>Cabo geonav ultra resistente</p>
+                <del> R$ 100,00</del>
+                <strong> R$ 50,00 </strong>
+              </div>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="btn btn-success">Adicionar</a>
+                </div>
+            </li>
+            <li>
+              <img
+                src="https://images-americanas.b2w.io/produtos/2407161703/imagens/cabo-micro-usb-em-nylon-trancado-essential-1m-esmisg-geonav/2407161703_1_large.jpg"
+                alt="Imagem blusa de frio lakers"
+                srcset=""
+              />
+              <div class="description">
+                <h3><strong>Cabo Geonav Ultra resistente</strong></h3>
+                <p>Cabo geonav ultra resistente</p>
+                <del> R$ 100,00</del>
+                <strong> R$ 50,00 </strong>
+              </div>
+              <div class="d-flex justify-content-center">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              </div>
+            </li>
+          </ul>
+    </section>
+    <section id="noticias">
+      <h2>Notícias</h2>
+      <div class="division"></div>
+      <div class="container">
+        <nav class="nav nav-pills">
+          <button
+            data-bs-toggle="tab"
+            data-bs-target="#aba1"
+            class="nav-link active"
+            type="button"
+          >
+          Eletrônicos de Sucesso
+          </button>
+          <button
+            data-bs-toggle="tab"
+            data-bs-target="#aba2"
+            class="nav-link"
+            type="button"
+          >
+            Aplicativos da Moda
+          </button>
+          <button
+            data-bs-toggle="tab"
+            data-bs-target="#aba3"
+            class="nav-link"
+            type="button"
+          >
+          Tendência Tecnologica
+          </button>
+        </nav>
+        <div class="tab-content">
+          <div id="aba1" class="tab-pane active">
+            <h2 class="title-noticias">Osmo Mobile 3</h2>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-6  col-xl-4">
+                  <article class="card">
+                    <img
+                      src="https://s2.glbimg.com/b-HFlqjE001FqraD9luk3JmLCAo=/0x0:695x595/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/F/I/33FZH8ToeCXX4ymU2sog/3.png"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        Veja os melhores acessórios para celular:
+                      </h4>
+                      <p class="card-text">
+                        Alguns possuem funcionalidades interessantes como telas adicionais, lentes fotográficas e cases com baterias. 
+                      </p>
+                    </div>
+                    <footer class="card-footer">
+                      <a href="#" class="btn btn-primary">Ler mais</a>
+                    </footer>
+                  </article>
+                </div>
+                <div class="col-sm-12 col-md-6  col-xl-4">
+                  <article class="card">
+                    <img
+                      src="https://s2.glbimg.com/b-HFlqjE001FqraD9luk3JmLCAo=/0x0:695x595/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/F/I/33FZH8ToeCXX4ymU2sog/3.png"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        Veja os melhores acessórios para celular:
+                      </h4>
+                      <p class="card-text">
+                        Alguns possuem funcionalidades interessantes como telas adicionais, lentes fotográficas e cases com baterias. 
+                      </p>
+                    </div>
+                    <footer class="card-footer">
+                      <a href="#" class="btn btn-primary">Ler mais</a>
+                    </footer>
+                  </article>
+                </div>
+                <div class="col-sm-12 col-md-6  col-xl-4">
+                  <article class="card">
+                    <img
+                      src="https://s2.glbimg.com/b-HFlqjE001FqraD9luk3JmLCAo=/0x0:695x595/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/F/I/33FZH8ToeCXX4ymU2sog/3.png"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        Veja os melhores acessórios para celular:
+                      </h4>
+                      <p class="card-text">
+                        Alguns possuem funcionalidades interessantes como telas adicionais, lentes fotográficas e cases com baterias. 
+                      </p>
+                    </div>
+                    <footer class="card-footer">
+                      <a href="#" class="btn btn-primary">Ler mais</a>
+                    </footer>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="aba2" class="tab-pane">
+            <h2 class="title-noticias">ChatGPT</h2>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-6  col-xl-4">
+                  <article class="card">
+                    <img
+                      src="https://s2.glbimg.com/GIqJu5AN-MCkc06C47zr1-WcjcY=/0x0:6792x4528/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/O/i/B7gAtKQHSuyqOTq4eR2Q/sanket-mishra-qakpcricrg8-unsplash.jpg"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        Veja Versão mobile do chatbot da OpenAI funciona em navegadores web
+                      </h4>
+                      <p class="card-text">
+                        É possível usar o ChatGPT pelo celular de algumas maneiras. Com versão disponível para navegadores web e iPhone (iOS), a ferramenta de inteligência artificial é capaz de fornecer respostas rápidas e precisas sobre uma variedade de tópicos. 
+                      </p>
+                    </div>
+                    <footer class="card-footer">
+                      <a href="#" class="btn btn-primary">Ler mais</a>
+                    </footer>
+                  </article>
+                </div>
+                <div class="col-sm-12 col-md-6  col-xl-4">
+                  <article class="card">
+                    <img
+                      src="https://s2.glbimg.com/GIqJu5AN-MCkc06C47zr1-WcjcY=/0x0:6792x4528/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/O/i/B7gAtKQHSuyqOTq4eR2Q/sanket-mishra-qakpcricrg8-unsplash.jpg"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        Veja Versão mobile do chatbot da OpenAI funciona em navegadores web
+                      </h4>
+                      <p class="card-text">
+                        É possível usar o ChatGPT pelo celular de algumas maneiras. Com versão disponível para navegadores web e iPhone (iOS), a ferramenta de inteligência artificial é capaz de fornecer respostas rápidas e precisas sobre uma variedade de tópicos. 
+                      </p>
+                    </div>
+                    <footer class="card-footer">
+                      <a href="#" class="btn btn-primary">Ler mais</a>
+                    </footer>
+                  </article>
+                </div>
+                <div class="col-sm-12 col-md-6  col-xl-4">
+                  <article class="card">
+                    <img
+                      src="https://s2.glbimg.com/GIqJu5AN-MCkc06C47zr1-WcjcY=/0x0:6792x4528/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/O/i/B7gAtKQHSuyqOTq4eR2Q/sanket-mishra-qakpcricrg8-unsplash.jpg"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        Veja Versão mobile do chatbot da OpenAI funciona em navegadores web
+                      </h4>
+                      <p class="card-text">
+                        É possível usar o ChatGPT pelo celular de algumas maneiras. Com versão disponível para navegadores web e iPhone (iOS), a ferramenta de inteligência artificial é capaz de fornecer respostas rápidas e precisas sobre uma variedade de tópicos. 
+                      </p>
+                    </div>
+                    <footer class="card-footer">
+                      <a href="#" class="btn btn-primary">Ler mais</a>
+                    </footer>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="aba3" class="tab-pane">
+            <h2 class="title-noticias">
+              Capa carregadora
+            </h2>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-6  col-xl-4">
+                  <article class="card">
+                    <img
+                      src="https://s2.glbimg.com/f8sgTwwxNaAqx2-9iQJ41eYbZ2E=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/r/6/pZaIP3Rmi29fARQduQTg/mwvp2-av6.jpg"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        Veja os melhores acessórios para celular:
+                      </h4>
+                      <p class="card-text">
+                        Alguns possuem funcionalidades interessantes como telas adicionais, lentes fotográficas e cases com baterias. 
+                      </p>
+                    </div>
+                    <footer class="card-footer">
+                      <a href="#" class="btn btn-primary">Ler mais</a>
+                    </footer>
+                  </article>
+                </div>
+                <div class="col-sm-12 col-md-6  col-xl-4">
+                  <article class="card">
+                    <img
+                      src="https://s2.glbimg.com/f8sgTwwxNaAqx2-9iQJ41eYbZ2E=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/r/6/pZaIP3Rmi29fARQduQTg/mwvp2-av6.jpg"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        Veja os melhores acessórios para celular:
+                      </h4>
+                      <p class="card-text">
+                        Alguns possuem funcionalidades interessantes como telas adicionais, lentes fotográficas e cases com baterias. 
+                      </p>
+                    </div>
+                    <footer class="card-footer">
+                      <a href="#" class="btn btn-primary">Ler mais</a>
+                    </footer>
+                  </article>
+                </div>
+                <div class="col-sm-12 col-md-6  col-xl-4">
+                  <article class="card">
+                    <img
+                      src="https://s2.glbimg.com/f8sgTwwxNaAqx2-9iQJ41eYbZ2E=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/r/6/pZaIP3Rmi29fARQduQTg/mwvp2-av6.jpg"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        Veja os melhores acessórios para celular:
+                      </h4>
+                      <p class="card-text">
+                        Alguns possuem funcionalidades interessantes como telas adicionais, lentes fotográficas e cases com baterias. 
+                      </p>
+                    </div>
+                    <footer class="card-footer">
+                      <a href="#" class="btn btn-primary">Ler mais</a>
+                    </footer>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <section id="contatos">
+        <h2>Contato</h2>
+        <div class="division"></div>
+        <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Entre em contato</h2>
+            <form>
+              <label class="form-label" for="nome">Seu nome:</label>
+              <input class="form-control" type="text" id="nome" />
+              <label for="email" class="form-label">Seu e-mail: </label>
+              <input id="email" type="email" class="form-control" />
+              <label for="mensagem" class="form-label">Sua mensagem: </label>
+              <textarea id="mensagem" class="form-control"></textarea>
+              <div class="form-check form-switch">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="aceito-termos"
+                />
+                <label class="form-check-label" for="aceito-termos"
+                  >Li e concordo com os termos do site</label
+                >
+              </div>
+            </form>
+        </div>
+        <button class="btn btn-success">Enviar</button>
+      </div>
+    </div>
+      </section>
+      <footer>
+        <div class="aligh-itens">
+        <div class="footer-container">
+                <p>
+                                2023 &copy; Somente Para Fins Educacionais - Todos os direitos reservados
+                </p>
+                <ul class="ul-footer">
+                        <li>
+                                <a href="#">
+                                <img src="/Icones_M11/facebook.png" alt="facebook">
+                                </a>
+                        </li>
+                        <li>
+                                <a href="#">
+                                <img src="/Icones_M11/instagram.png" alt="instagram">
+                                </a>
+                        </li>
+                                <li>
+                                <a href="#">
+                                <img src="/Icones_M11/youtube.png" alt="youtube">
+                                </a>
+                        </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+</footer>
+    </div>
+      <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <!--TOAST E DIVIDIDO ENTRE CABEÇALHO, CORPO DA MENSAGEM DO ALERTA QUE IREMOS INSERIR,-->
+        <div class="toast" id="mensagens-alerta">
+          <header class="toast-header">
+            <strong>Importante</strong>
+          </header>
+          <div class="toast-body">Você possui <strong>5 CUPONS DÍSPONIVEIS!</strong></div>
+          <div class="mt-2 pt-2 border-top">
+            <button
+              data-bs-dismiss="toast"
+              class="btn btn-danger p-2 m-2"
+              type="button"
+            >
+              Descartar
+            </button>
+            <button
+            data-bs-dismiss="toast"
+            class="btn btn-success p-2 m-2"
+            type="button"
+          >
+            Resgatar
+          </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+    <script>
+      const ativadorToast = document.getElementById('btn-checar-emails');
+      const mensagem = document.getElementById('mensagens-alerta');
+      if (ativadorToast) {
+        ativadorToast.addEventListener('click', function () {
+          const toast = new bootstrap.Toast(mensagem);
+          toast.show();
+        });
+      }
+    </script>
+  </body>
+</html>
