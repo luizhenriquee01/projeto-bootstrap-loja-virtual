@@ -137,9 +137,6 @@ footer li img {
 }
 /*SOMENTE PARA IMAGENS DO SLIDE EM APARELHOS MENORES*/
 @media (max-width: 576px) {
-  .carousel-inner img {
-    height: 150px;
-  }
 }
 /*RESPONSIVO PARA TABLET*/
 @media (min-width: 641px) and (max-width: 1023px) {
